@@ -1,4 +1,4 @@
-package bean;
+package src.bean;
 
 import java.io.Serializable;
 import java.time.LocalDate;
