@@ -1,4 +1,4 @@
-package scoremanager;
+package src.scoremanager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +7,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import bean.Teacher;
-import dao.TeacherDao;
-import tool.Action;
+import src.bean.Teacher;
+import src.dao.TeacherDao;
+import src.tool.Action;
 
 
 public class LoginExecuteAction extends Action {

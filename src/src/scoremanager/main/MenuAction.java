@@ -1,9 +1,9 @@
-package scoremanager.main;
+package src.scoremanager.main;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import tool.Action;
+import src.tool.Action;
 
 public class MenuAction extends Action {
 

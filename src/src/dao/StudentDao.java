@@ -1,4 +1,4 @@
-package dao;
+package src.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import bean.School;
-import bean.Student;
+import src.bean.School;
+import src.bean.Student;
 
 public class StudentDao extends Dao {
 	/**

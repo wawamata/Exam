@@ -1,4 +1,4 @@
-package scoremanager.main;
+package src.scoremanager.main;
 
 import java.util.HashMap;
 import java.util.List;
@@ -8,11 +8,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import bean.Student;
-import bean.Teacher;
-import dao.ClassNumDao;
-import dao.StudentDao;
-import tool.Action;
+import src.bean.Student;
+import src.bean.Teacher;
+import src.dao.ClassNumDao;
+import src.dao.StudentDao;
+import src.tool.Action;
 
 public class StudentUpdateAction extends Action {
 

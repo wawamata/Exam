@@ -1,9 +1,9 @@
-package scoremanager;
+package src.scoremanager;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import tool.Action;
+import src.tool.Action;
 
 public class LoginAction extends Action {
 
