@@ -1,11 +1,11 @@
-package src.dao;
+package dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import src.bean.Teacher;
+import bean.Teacher;
 
 public class TeacherDao extends Dao {
 	/**
